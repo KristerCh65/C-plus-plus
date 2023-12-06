@@ -1,0 +1,163 @@
+programa 1
+
+using namespace std;
+int n1;
+int n2;
+
+int main(int argc, char** argv) {
+	
+	cout<<"Hola a Todos"<<;
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 2
+
+using namespace std;
+int n1;
+int n2;
+
+int main(int argc, char** argv) {
+	
+	cout<<"Ingrese N1"<<;
+	cin>>n1;
+	cout<<"Ingrese N2"<<;
+	cin>>n2;
+	cout<<"El resultado es: "<<n1+n2<<;
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 3
+
+using namespace std;
+int edad;
+
+int main(int argc, char** argv) {
+	
+	cout <<"ingrese edad"<<end1;
+	cin>>edad;
+	
+	if (edad>=18){
+		cout<<"Mayor de edad"<<end1;
+	}else{
+		cout<<"Menos de edad"<<end1;
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 4
+
+using namespace std;
+int n1;
+
+int main(int argc, char** argv) {
+	
+	cout <<"ingrese numero"<<end1;
+	cin>>n1;
+	
+	switch(n1){
+		case 1:
+			cout<<"Domingo"<<end1;
+			break;
+		case 2:
+			cout<<"Lunes"<<end1;
+			break;
+		case 3:
+			cout<<"Martes"<<end1;
+			break;
+		case 4:
+			cout<<"Miercoles"<<end1;
+			break;
+		case 5:
+			cout<<"Jueves"<<end1;
+			break;
+		case 6:
+			cout<<"Viernes"<<end1;
+			break;
+		case 7: 
+			cout<<"Sabado"<<end1;
+			break;
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 5
+
+using namespace std;
+int n1;
+
+int main(int argc, char** argv) {
+
+	for(int i = 0; i<=10; i++){
+		cout<<i<<end1;
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 6
+
+using namespace std;
+int n1;
+
+int main(int argc, char** argv) {
+
+	for(int i = 0; i < 5; i++){
+		for(int a = 0; a < i; a++){
+			cout<<"*";
+		}
+		cout<<end1;
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 7
+
+using namespace std;
+char op='s';
+
+int main(int argc, char** argv) {
+
+	while{
+		cout<<"Desea Continuar"<<;
+		cin>>op;
+		
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+programa 8
+
+using namespace std;
+char op='s';
+
+int main(int argc, char** argv) {
+
+	do{
+		cout<<"Desea Continuar"<<;
+		cin>>op;
+		
+	}while(op!='n');
+	
+	system("pause");
+	return 0;
+}

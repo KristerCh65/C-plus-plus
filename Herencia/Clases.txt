@@ -1,0 +1,104 @@
+programa 1
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+class alumno{
+	public:
+		string nombre;
+		int not1;
+		int not2;
+		int promedio(){
+			return (not1+not2)/2;
+		}
+};
+
+alumno estudiante;
+
+int main(int argc, char** argv) {
+	cout<<"Ingrese Nomre"<<endl;
+	cin>>estudiante.nombre;
+	cout<<"Ingrese Nota 1"<<endl;
+	cin>>estudiante.not1;
+	cout<<"Ingrese Nota 2"<<endl;
+	cin>>estudiante.not2;
+	
+	cout<<"Nombre: "<<estudiante.nombre<<endl;
+	cout<<"Nota 1: "<<estudiante.not1<<end1;
+	cout<<"Nota 2: "<<estudiante.not2<<endl;
+	cout<<"Promedio: "<<estudiante.promedio()<<endl;
+	
+	return 0;
+}
+
+
+progama 2
+
+#include <iostream>
+#include <string.h>
+#include "alumno.h"
+#include "hijo.h"
+
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+hijo h;
+
+int main(int argc, char** argv) {
+	cout<<"Ingrese Nomre"<<endl;
+	cin>>h.nombre;
+	cout<<"Ingrese Nota 1"<<endl;
+	cin>>h.not1;
+	cout<<"Ingrese Nota 2"<<endl;
+	cin>>h.not2;
+	
+	cout<<"Nombre: "<<estudiante.nombre<<endl;
+	cout<<"Nota 1: "<<estudiante.not1<<endl;
+	cout<<"Nota 2: "<<estudiante.not2<<endl;
+	
+	return 0;
+}
+
+#include <iostream>
+
+#ifndef ALUMNO_H
+#define ALUMNO_H
+
+using namespace std;
+
+class alumno{
+	public:
+		string nombre;
+		int not1;
+		int not2;
+		void total();
+	
+	private:
+		int promedio();
+		
+	protected:
+		int acumulado;
+		int promedio;
+};
+
+#endif
+
+#include "alumno.h"
+
+int alumno::promedio(){
+			return (not1+not2)/2;
+		}
+		
+void tota(){
+	cout<<"Su promedio es: "<<promedio()<<endl;
+	prom = promedio();
+	acumulado = 5;
+}
+
+
+
+Christian 
+88293492
